@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(image/pc.jpg) ;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+}
+.btn {
+  padding: 8px 24px;
+  color:white;
+  opacity: 0.8;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.line {
+  background-color: #239b76;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #55acee;
+}
+.btn-wrapper {
+  margin: 30px 0;
+}
+.btn-wrapper p {
+  margin: 15px;
+}
+.fa {
+  margin-right:  5px;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.lesson-wrapper {
+  height: 580px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+.heading {
+  padding: 80px 0 50px 0;
+  color: #5f5d60;
+}
+.heading h2 {
+  font-weight: normal;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+.lesson-wrapper {
+  text-align: center;
+}
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon p {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  color: white;
+}
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin: 15px;
+  font-size: 12px;
+  color: #b3aeb5;
+}
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  box-shadow: 0 7px #1a7940;
+}
+.heading h3 {
+  font-weight: normal;
+}
+.message-wrapper {
+  text-align: center;
+  padding-bottom:80px;
+  border-bottom: 1px solid #eee;
+}
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+footer img {
+  width: 124px;
+}
+footer p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
+footer {
+  margin: 30px 0;
+}
